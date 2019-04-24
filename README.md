@@ -1,27 +1,48 @@
-# AngularToDo
+# Mi primera app en Angular 7
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Instalamos Node.js 
 
-## Development server
+![1556069407911](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556069407911.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Luego de instalado, validamos sus versiones:
 
-## Code scaffolding
+![1556069462896](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556069462896.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Instalamos el angular CLI de manera global, para que este presente en todos nuestros proyectos, ejecutando por consola lo siguiente:
 
-## Build
+> > npm install -g @angular/cli
+> >
+> > Nos vamos al directorio donde queremos crear nuestro proyecto y procedemos a crearlo:
+> >
+> > ![1556071496225](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556071496225.png) 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ng -- significa que haremos uso de angular cli
 
-## Running unit tests
+new -- para crear el proyecto nuevo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+angular-to-do -- el nombre de nuestra aplicacion
 
-## Running end-to-end tests
+Al presionar enter, nos pregunta si deseamos usar Angular routing que es una propiedad para navegar entre varias pantallas, le decimos que si; y posteriormente te pregunta que tipo de formato de estilo usaremos, en este caso seleccionamos CSS.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![1556071538627](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556071538627.png)
 
-## Further help
+Importante tener conexion a internet. Realizando la operacion me genero un error que fue resuelto. Puede observarse su troubleshooting en la documentacion asociada en su error numero 1. Finaliza exitosamente la instalacion
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![1556077742205](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556077742205.png)
+
+Ahora utilizaremos el editor de codigo de nuestra preferencia, en este caso trabajaremos con Visual Studio Code.  Nos situamos en la carpeta del proyecto y escribimos lo siguiente para abra automaticamente el proyecto con Visual Studio Code:
+
+![1556078599007](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556078599007.png)
+
+![1556078977333](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556078977333.png)
+
+Procedemos a ejecutar el proyecto, bien sea por la terminal en la que venimos trabajando o por la terminal que trae VS:
+
+![1556079139489](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556079139489.png)
+
+![1556079215773](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556079215773.png)
+
+Luego de que finaliza el proceso de compilacion, gracias al parametro -o que colocamos en el comando, despliega automaticamente en el navegador la aplicacion de Angular:
+
+![1556079386537](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556079386537.png)
+
