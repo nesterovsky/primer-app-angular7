@@ -2,7 +2,7 @@
 
 Instalamos Node.js 
 
-![1556069407911](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1556069407911.png)
+![1556069407911](https://github.com/nesterovsky/primer-app-angular7/tree/master/images\1556069407911.png)
 
 Luego de instalado, validamos sus versiones:
 
