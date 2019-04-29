@@ -26,7 +26,7 @@ Al presionar enter, nos pregunta si deseamos usar Angular routing que es una pro
 
 ![1556071538627](https://user-images.githubusercontent.com/47821726/56707286-0fbec480-66cd-11e9-909e-c64949b3a8f9.png)
 
-Importante tener conexion a internet. Realizando la operacion me genero un error que fue resuelto. Puede observarse su troubleshooting en la documentacion asociada en su error numero 1. Finaliza exitosamente la instalacion
+Importante tener conexion a internet. Realizando la operacion me genero un error que fue resuelto. Puede observarse su troubleshooting en la documentacion asociada en su error numero 1. Finaliza exitosamente la instalacion:
 
 ![1556077742205](https://user-images.githubusercontent.com/47821726/56707314-2c5afc80-66cd-11e9-90ae-1c7477405d0d.png)
 
