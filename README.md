@@ -46,3 +46,57 @@ Luego de que finaliza el proceso de compilacion, gracias al parametro -o que col
 
 ![1556079386537](https://user-images.githubusercontent.com/47821726/56707334-4268bd00-66cd-11e9-945a-0961168714c6.png)
 
+Nos dirigiremos a la pagina web de Firebase para crear un nuevo proyecto y a su vez la BD que es NoSQL:
+
+<https://firebase.google.com/>
+
+![1557429406578](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557429406578.png)
+
+Comenzar -- Agregar un nuevo proyecto
+
+![1557429763638](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557429763638.png)
+
+![1557429834967](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557429834967.png)
+
+Se crea el nuevo proyecto. Ahora procederemos a crear la BD de CloudFirestore 
+
+![1557430477123](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557430477123.png)
+
+Habilitamos los permisos (a modo de prueba, esto hace que los permisos esten abiertos.) Seguido de ellos, damos click en "Project Overview" -- damos click en </> y copiamos lo que vemos a continuacion en el archivo environment.ts de nuestro proyecto (estas son las credenciales de conexion):
+
+![1557431033239](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557431033239.png)
+
+Luego, nos pocisionamos en el archivo app.module.ts y agregamos los imports de AngularFireModule, AngularFirestoreModule, environment y adicional NgModule y ReactiveFormsModule indicados en la imagen asi como luego hacer uso en el modulo de esos elementos (@NgModule):
+
+![1557431128033](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557431128033.png)
+
+Posterior a ello, nos dirigimos al archivo angular.json y agregamos la ubicacion en nuestro proyecto de bootstrap:
+
+![1557431435397](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557431435397.png)
+
+Paramos y volvemos a ejecutar el servidor: ng serve -o y luego de que compile para que tome los cambios, podremos observar que la fuente de las letras es diferente:
+
+![1557431527867](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557431527867.png)
+
+Ahora crearemos un nuevo componente que sera la pantalla inicial de nuestra aplicacion. Abrimos una nueva consola en VS Code y colocamos el siguiente comando: ng generate component todo/todo-list
+
+![1557431886107](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557431886107.png)
+
+ng -- indica que estamos creando el componente usando Angular CLI
+
+generate component -- cpomando para generear el componente
+
+todo/ -- va a crearlo en una carpeta todo (esto por temas de organizacion)
+
+todo-list -- sera el nombre de nuestro componente
+
+Luego de ejecutarlo, vemos que se crea el componente y se actualiza el app.module.ts, podemos observarlo:
+
+![1557432214137](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557432214137.png)
+
+todos los componentes que vamos a usar deben estar declarados en el archivo app.module.ts en la seccion declarations de @NgModule.
+
+Aca podemos observar el componente que acabamos de crear:
+
+![1557432341023](C:\Users\Gabi\AppData\Roaming\Typora\typora-user-images\1557432341023.png)
+
