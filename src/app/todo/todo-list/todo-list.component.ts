@@ -14,14 +14,15 @@ export class TodoListComponent implements OnInit {
 
   ngOnInit() {
   }
-  ClickAddTodo(){
+  ClickAddTodo() {
     const modal = this.modalService.open(TodoFormComponent);
     modal.result.then(
       this.handleModalTodoFormClose.bind(this),
       this.handleModalTodoFormClose.bind(this)
     )
   }
-  handleModalTodoFormClose(){
-    alert('se ha cerrado el modal');
+
+  handleModalTodoFormClose() {
   }
 }
+  

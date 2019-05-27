@@ -23,7 +23,7 @@ import { TodoFormComponent } from './todo/todo-form/todo-form.component'
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireModule,
+    AngularFirestoreModule,
     NgbModule,
     ReactiveFormsModule
   ],
